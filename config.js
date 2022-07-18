@@ -66,10 +66,10 @@ global.zt = '*'
 global.zc = ''
 
 global.thumbnailUrl = [
-  'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg', 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg',
-  'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg', 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg',
-  'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg', 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg',
-  'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg', 'https://telegra.ph/file/935b88bd02274c6bfdb7c.jpg'
+  'https://telegra.ph/file/fad378b0cb7ad25569926.jpg', 'https://telegra.ph/file/fad378b0cb7ad25569926.jpg',
+  'https://telegra.ph/file/fad378b0cb7ad25569926.jpg', 'https://telegra.ph/file/fad378b0cb7ad25569926.jpg',
+  'https://telegra.ph/file/fad378b0cb7ad25569926.jpg', 'https://telegra.ph/file/fad378b0cb7ad25569926.jpg',
+  'https://telegra.ph/file/fad378b0cb7ad25569926.jpg', 'https://telegra.ph/file/fad378b0cb7ad25569926.jpg'
 ]
 
 //============= Games ================//

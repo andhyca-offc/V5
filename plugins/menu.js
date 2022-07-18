@@ -7,6 +7,7 @@ let jimp = require('jimp')
 let PhoneNumber = require('awesome-phonenumber')
 const defaultMenu = {
   before: `
+┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅
 ┌─〔 %me 〕
 ├ *${ucapan()} %name*
 │
@@ -224,34 +225,36 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       {
         title: 'List Menu ' + namabot,
         rows: [
-          { title: 'Semua Perintah', rowId: `${_p + command} all` },
-          { title: 'Game', rowId: `${_p + command} game` },
-          { title: 'Rpg', rowId: `${_p + command} rpg` },
-          { title: 'XP', rowId: `${_p + command} xp` },
-          { title: 'Stiker', rowId: `${_p + command} stiker` },
-          { title: 'Kerang Ajaib', rowId: `${_p + command} kerangajaib` },
-          { title: 'Quotes', rowId: `${_p + command} quotes` },
-          { title: 'Grup', rowId: `${_p + command} grup` },
-          { title: 'Premium', rowId: `${_p + command} premium` },
-          { title: 'Internet', rowId: `${_p + command} internet` },
-          { title: 'Anonymous', rowId: `${_p + command} anonymous` },
-          { title: 'Nulis & Logo', rowId: `${_p + command} nulis` },
-          { title: 'Downloader', rowId: `${_p + command} downloader` },
-          { title: 'Tools', rowId: `${_p + command} tools` },
-          { title: 'Fun', rowId: `${_p + command} fun`},
-          { title: 'Database', rowId: `${_p + command} database` },
-          { title: 'Vote & Absen', rowId: `${_p + command} vote` },
-          { title: "Al-Qur\'an", rowId: `${_p + command} quran` },
-          { title: 'Pengubah Suara', rowId: `${_p + command} audio` },
-          { title: 'Jadi Bot', rowId: `${_p + command} jadibot` },
-          { title: 'Info', rowId: `${_p +command} info` },
-          { title: 'Tanpa Kategori', rowId: `${_p + command} tanpakategori` },
-          { title: 'Owner', rowId: `${_p + command} owner` },
+          { title: '💬 ✦ All', rowId: `${_p + command} all` },
+          { title: '🎮 ✦ Game', rowId: `${_p + command} game` },
+          { title: '🌱 ✦ Rpg', rowId: `${_p + command} rpg` },
+          { title: '✨ ✦ XP', rowId: `${_p + command} xp` },
+          { title: '🎨 ✦ Stiker', rowId: `${_p + command} stiker` },
+          { title: '🐚 ✦ Kerang Ajaib', rowId: `${_p + command} kerangajaib` },
+          { title: '📑 ✦ Quotes', rowId: `${_p + command} quotes` },
+          { title: '🏢 ✦ Grup', rowId: `${_p + command} grup` },
+          { title: '🌟 ✦ Premium', rowId: `${_p + command} premium` },
+          { title: '🌏 ✦ Internet', rowId: `${_p + command} internet` },
+          { title: '🎭 ✦ Anonymous', rowId: `${_p + command} anonymous` },
+          { title: '🖋️ ✦ Nulis & Logo', rowId: `${_p + command} nulis` },
+          { title: '📩 ✦ Downloader', rowId: `${_p + command} downloader` },
+          { title: '🛠️ ✦ Tools', rowId: `${_p + command} tools` },
+          { title: '🧩 ✦ Fun', rowId: `${_p + command} fun`},
+          { title: '🗂️ ✦ Database', rowId: `${_p + command} database` },
+          { title: '🐾 ✦ Vote & Absen', rowId: `${_p + command} vote` },
+          { title: "📖 ✦ Al-Qur\'an", rowId: `${_p + command} quran` },
+          { title: '📢 ✦ Pengubah Suara', rowId: `${_p + command} audio` },
+          { title: '🤖 ✦ Jadi Bot', rowId: `${_p + command} jadibot` },
+          { title: 'ℹ️ ✦ Info', rowId: `${_p +command} info` },
+          { title: '❗ ✦ Tanpa Kategori', rowId: `${_p + command} tanpakategori` },
+          { title: '👨‍💻 ✦ Owner', rowId: `${_p + command} owner` },
         ]
       }
     ]
     const listMessage = {
       text: `
+┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅
+
 ❏ *U S E R   I N F O*
 • Nama    : *${name}*
 • Limit   : *${limit}*
@@ -279,8 +282,8 @@ _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 
 ${pe}Note: Jika ada Fitur yg Error Lapor ke owner${pe}`,
       footer: wm,
-      title: judul,
-      buttonText: "Klik Disini",
+      title: '「 𝚂𝚑𝚒𝚛𝚘𝙱𝙾𝚃𝚉-𝙼𝚍ོ | © 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ 」',
+      buttonText: "CLICK HERE ⎙",
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})

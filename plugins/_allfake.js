@@ -35,12 +35,12 @@ handler.all = async function (m) {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "6282331033919-1625305606@g.us" } : {}) 
+	 { remoteJid: "https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
                  "text":wm,
-                 "title": wm,
+                 "title": 「 𝚂𝚑𝚒𝚛𝚘𝙱𝙾𝚃𝚉-𝙼𝚍ོ | © 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ 」,
                  'jpegThumbnail': fs.readFileSync('./src/logo.jpg')
                         }
 	                  } 
@@ -51,7 +51,7 @@ handler.all = async function (m) {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"by : The.sad.boy01","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"by : 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
         
 	       global.fliveLoc2 = {
@@ -59,13 +59,13 @@ handler.all = async function (m) {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "title": "the.sad.boy01","h": wm, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "title": "𝚂𝚑𝚒𝚛𝚘𝙱𝙾𝚃𝚉-𝙼𝚍ོ","h": wm, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
         
             global.ftoko = {
 key: {
 			fromMe: false,
-			participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "6282331033919@s.whatsapp.net" } : {})
+			participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M" } : {})
 		},
 		message: {
 			"productMessage": {
@@ -74,7 +74,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": fs.readFileSync('./src/logo.jpg') //Gambarnye
 					},
-					"title": wm, //Kasih namalu 
+					"title": 「 𝚂𝚑𝚒𝚛𝚘𝙱𝙾𝚃𝚉-𝙼𝚍ོ | © 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ 」, //Kasih namalu 
 					"description": namabot, 
 					"currencyCode": "USD",
 					"priceAmount1000": "20000000",
@@ -106,9 +106,9 @@ key: {
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "6282331033919-1625305606@g.us",
+			"groupJid": "https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M",
 			"inviteCode": "null",
-			"groupName": "☬𝚁𝚊𝚡𝚌𝚎𝚕 ༼༽𝚡 𝚎𝚟𝚒𝚕 𝐎𝔣ᶜ ◉", 
+			"groupName": "Andhyca || User 「BOT」 𝕆𝔽ℂ", 
             "caption": `╭─${kki}RULES BOT${kka}
 │
 ├❒ DILARANG TOXIC
@@ -132,11 +132,11 @@ key: {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "6282331033919-1625305606@g.us" } : {}) 
+	 { remoteJid: "https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title": wm,
+                 "title": 「 𝚂𝚑𝚒𝚛𝚘𝙱𝙾𝚃𝚉-𝙼𝚍ོ | © 🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ 」,
                  "h": `Hmm`,
                  'seconds': '999999999', 
                  'gifPlayback': 'true', 
